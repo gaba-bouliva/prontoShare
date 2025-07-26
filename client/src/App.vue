@@ -1,18 +1,13 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <div class="max-h-screen flex items-center justify-center bg-gray-100 text-center">
-    <h1 class="text-4xl font-bold text-blue-600">🎉 Tailwind is working!</h1>
+    <h1 class="text-4xl font-bold text-blue-600">🎉 ProntoShare is working!</h1>
     <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+      <img src="/logo.png" class="logo" alt="Vite logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
