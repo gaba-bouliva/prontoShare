@@ -3,10 +3,15 @@
 
 <template>
   <div class="max-h-screen flex items-center justify-center bg-gray-100 text-center">
-    <h1 class="text-4xl font-bold text-blue-600">🎉 ProntoShare is working!</h1>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/logo.png" class="logo" alt="Vite logo" />
-    </a>
+    <div>
+      <h1 class="text-4xl font-bold text-blue-600">🎉 ProntoShare is working!</h1>
+      <a href="https://vite.dev" target="_blank">
+        <img src="/logo.png" class="logo" alt="Vite logo" />
+      </a>
+    </div>
+    <div>
+      <router-view/>
+    </div>
   </div>
 </template>
 
